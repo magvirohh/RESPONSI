@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context="account">
+
+    <TextView
+        android:id="@+id/Hobi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tampilhobi"
+        android:textSize="20dp"
+        tools:ignore="ObsoleteLayoutParam,UnknownId" />
+
+    <TextView
+        android:id="@+id/tampilhobi"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:text="Hobi =  "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Hobi"
+        android:layout_toRightOf="@+id/tampilnama"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tampilnama"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Hobi"
+        android:text="Nama = "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Umur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nama"
+        android:layout_toRightOf="@+id/tampilnama"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tampilumur"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Nama"
+        android:text="Umur = "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Umur"
+        android:layout_toRightOf="@+id/tampilemail"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tampilemail"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Umur"
+        android:layout_marginTop="0dp"
+        android:text="Email = "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Umur"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/tampilusername"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tampilusername"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Email"
+        android:text="Username= "
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Username"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@+id/tampilpas"
+        android:hint="****"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tampilpas"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Username"
+        android:layout_marginTop="7dp"
+        android:text="Password = "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Jk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Password"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="19dp"
+        android:layout_toRightOf="@+id/tampiljk"
+        android:hint="****"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tampiljk"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Password"
+        android:layout_marginTop="7dp"
+        android:text="Password = "
+        android:textSize="20dp" />
+</RelativeLayout>
